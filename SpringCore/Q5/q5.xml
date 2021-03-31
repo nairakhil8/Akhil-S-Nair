@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+    <bean id="studentRequired" class="com.springcore.Student">
+        <property name="name" value="Michael"/>
+    </bean>
+
+    <bean id="studentResource" class="com.springcore.Student">
+        <property name="name" value="Michael"/>
+        <property name="age" value="15"/>
+    </bean>
+    <bean id="school" class = "com.springcore.School">
+        <property name="name" value="ABC"/>
+        <property name="TotalStudent" value="500"/>
+
+    </bean>
+
+    <bean id="school1" class = "com.springcore.School">
+        <property name="name" value="ABC"/>
+        <property name="TotalStudent" value="500"/>
+
+    </bean>
+    <bean id="school2" class = "com.springcore.School">
+        <property name="name" value="XYZ"/>
+        <property name="TotalStudent" value="700"/>
+
+    </bean>
+
+    <bean id="school3" class = "com.springcore.School">
+        <property name="name" value="MNO"/>
+        <property name="TotalStudent" value="1000"/>
+
+    </bean>
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
+
+</beans>
