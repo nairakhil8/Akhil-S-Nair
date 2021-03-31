@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="FormStyle.css">
+<title>Hostel Registration Form</title>
+</head> 
+
+<body >
+<div id="outside">
+  <form id="survey-form">
+    <h1 id="title">Hostel Registration Form</h1>
+    <p id="description"><strong>Note: </strong>Acknowledgement Form is to be submitted after exams(22 April) signed by your parents.</p>
+  <fieldset>
+    <legend>Personal details</legend>
+    <div id="fields">
+      <label for="name">Name:</label>
+      <input type="text" required id="name" placeholder="Enter your name">
+    </div>
+    <div id="fields">
+      <label for="class">Class/Sec:</label>
+      <input type="text" required id="class" placeholder="Enter your class">
+    </div>
+    <div id="fields">
+      <label  for="name">Email:</label>
+      <input type="email" required id="email-id" placeholder="Enter your email">
+    </div>
+
+    <div id="fields">
+      <label for="name">DOB:</label>
+      <input type="date" required id="dob" placeholder="Enter your dob">
+    </div>
+    
+    <div id="fields">
+    
+      <label for="age">Age:</label>
+      <input type="number" required id="age" placeholder="Enter your age">
+    </div>
+    <div id="fields">
+      <label for="address">Address:</label>
+      <input type="text" required id="address" placeholder="Enter your address">
+    </div>
+    <div id="fields">
+      <label for="phn">Phone number:</label>
+      <input type="text" required id="phn" placeholder="Enter parent's phone no.">
+    </div>
+    <div id="fields">
+      <label  for="name">Boy/Girl:</label><br>
+      <input type="radio" name="gender" value="Boy">Boy<br>
+      <input type="radio" name="gender" value="Girl">Girl
+    </div>
+   
+    
+    
+  </fieldset>
+  
+  <fieldset>
+    
+     <p class="fields"> Medical issues (if any)</p>
+     <div id="fields">
+      <label for="msg"></label>
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+  </fieldset>
+
+  <div id="submitbutton">
+    <button type="submit" id="submit">Submit</button>   </div>
+
+  </form>
+</div>
+
+</body> 
+</html>

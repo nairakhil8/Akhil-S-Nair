@@ -1,0 +1,70 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  
+}
+
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(121, 15, 15, 0.664);
+    padding: 0.5em;;
+  }
+  #description{
+    text-align: start;
+   margin: auto;
+   font-size: small;
+  }
+  form {
+    margin: 0 auto;
+    width: 65%;
+    padding: 1em;
+    border: 1.5px solid rgb(209, 166, 166);
+    border-radius: 1em;
+   
+    
+  }
+  #survey-form {
+    background-color: white;
+    
+  }
+  fieldset { 
+    border:1px solid rgb(202, 183, 183);
+    margin: 10px;
+    border-radius: 1em;
+   }
+   legend {
+    font-weight: 500;
+    font-size:1.5em;
+    color:rgb(196, 84, 84);
+    padding: 0.5em;
+
+  }
+  #fields
+  {
+   position: relative;
+   left: 10px;
+   bottom: 10px;
+    font-size: medium;
+    padding: 1em;
+    margin: auto;
+  }
+  
+
+  #submit{
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: rgb(131, 30, 30);
+    color: white;
+    border: 1px solid lightslategray ;
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+  #submitbutton{
+    display: flex; 
+  justify-content: center;
+  }
+  
